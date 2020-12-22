@@ -32,6 +32,7 @@ export default {
       this.context.closePath();	
       this.context.fillStyle = "rgba(0,0,0,1)";
       this.context.fill();
+      
       this.context.globalCompositeOperation = "source-over";
       this.context.lineWidth = this.flame_weight;
       this.context.strokeStyle = "rgb(0,0,0)"; 
@@ -68,11 +69,11 @@ export default {
     this.context = a.getContext('2d');
 
     
-    this.gradient1_b = this.context.createLinearGradient(this.tbw*0.5, 0, this.tbw*0.5, this.tbh*0.5);
+    this.gradient1_b = this.context.createLinearGradient(this.tbw*0.5, 0, this.tbw*0.5, this.tbh);
     this.gradient1_b.addColorStop(0.0 , 'rgba(0,50,255,0.05)');
     this.gradient1_b.addColorStop(1.0 , 'rgba(0,50,255,0.125)');
     this.context.fillStyle = this.gradient1_b;
-    this.context.fillRect(0,0,this.width*0.4,this.height*0.5);
+    this.context.fillRect(0,0,this.tbw,this.tbh);
 
    
     //+ボタンを作成
