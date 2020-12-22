@@ -1,0 +1,20 @@
+{
+  "name": "plusbutton",
+  "version": "1.0.4",
+  "private": false,
+  "description": "",
+  "main": "src/library-main.js",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoshikatsu-Koyanagi/plusbutton.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yoshikatsu-Koyanagi/plusbutton/issues"
+  },
+  "homepage": "https://github.com/Yoshikatsu-Koyanagi/plusbutton#readme"
+}
