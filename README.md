@@ -8,7 +8,7 @@
       :width = 500
       :height = 300
       @plusclick="plus"></mycomp> //@plusclick: ボタンが押されたら発火
-  </div>
+</div>
   ````
   
   ----index.js----
