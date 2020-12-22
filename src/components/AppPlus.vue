@@ -1,5 +1,5 @@
 <template>
-    <canvas class="triangle" id="cv1" ref="canv1" :width="width*0.4" :height="height*0.5"></canvas>
+    <canvas class="triangle" id="cv1" ref="canv1" :width="width" :height="height"></canvas>
 </template>
 
 <style scoped>
@@ -53,8 +53,8 @@ export default {
     //this.amount = this.initial
     this.flame_weight = this.width*this.flame_weight_ratio //ボタンの枠の太さ
 
-    this.tbw = this.width*0.4;
-    this.tbh = this.height*0.5;
+    this.tbw = this.width;
+    this.tbh = this.height;
     
     this.triangle_width = this.triangle_width_ratio*this.tbw;
     this.triangle_height = this.tbh*this.triangle_height_ratio;
