@@ -9,7 +9,7 @@
 
 <script>
 export default { 
-  props: ["width","height","min","max","initial"],
+  props: ["width","height"],
     data() {
       return {
         triangle_width_ratio: 0.8,
